@@ -18,7 +18,7 @@ INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entr
 (@NpcEntry, 0, 0, 0, 0, 0, @NpcName, @NpcSubname, NULL, 0, 80, 80, 0, 35, 129, 1, 1.14286, 1, 1, 20, 1, 1, 0, 1, 2000, 2000, 1, 1, 1, 0, 2048, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 'SmartAI', 0, 1, 50, 50, 1, 1, 0, 0, 1, 0, 0, 0, 'npc_multi_vendor_277_284', 12340);
 
 /*VENDOR CREATURE_TEMPALTE_MODEL*/
-DELETE FROM `creature_template_model` WHERE `entry` IN (@NpcEntry);
+DELETE FROM `creature_template_model` WHERE `CreatureID` IN (@NpcEntry);
 INSERT INTO `creature_template_model` (`CreatureID`, `Idx`, `CreatureDisplayID`, `DisplayScale`, `Probability`, `VerifiedBuild`) VALUES
 (@NpcEntry, 0, @NpcDisplayID, 1, 1, 12340);
 
