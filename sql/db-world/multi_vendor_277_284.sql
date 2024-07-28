@@ -1,9 +1,9 @@
 -- DATA NPC_TEMPLATE
 SET
-@NpcEntry 		:= 666664,
-@NpcName		:= "Vendor-277-284",
-@NpcSubname		:= "WoWHellgarve",
-@NpcDisplayID		:= 1298, /*GIVE A NEW DISPLAYID HERE*/
+@NpcEntry 		:= 601024,
+@NpcName		:= "Montgomery Schaat",
+@NpcSubname		:= "Endgame Armorer",
+@NpcDisplayID		:= 19, /*GIVE A NEW DISPLAYID HERE*/
 
 /*vendors_entrys*/
 @Vendor_Wep 		:= 6666666, /*ILVL_277-284_WEAPONS_LIST*/
