@@ -1,8 +1,8 @@
 -- DATA NPC_TEMPLATE
 SET
-@NpcEntry 		:= 666665,
-@NpcName		:= "Vendor-264",
-@NpcSubname		:= "WoWHellgarve",
+@NpcEntry 		:= 601023,
+@NpcName		:= "Nulliver Orth",
+@NpcSubname		:= "Unlicensed Excellent Armorer",
 @NpcDisplayID		:= 1298, /*GIVE A NEW DISPLAYID HERE*/
 
 /*vendors_entrys*/
