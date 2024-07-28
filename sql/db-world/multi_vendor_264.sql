@@ -1,9 +1,9 @@
 -- DATA NPC_TEMPLATE
 SET
 @NpcEntry 		:= 601023,
-@NpcName		:= "Nulliver Orth",
-@NpcSubname		:= "Unlicensed Excellent Armorer",
-@NpcDisplayID		:= 1298, /*GIVE A NEW DISPLAYID HERE*/
+@NpcName		:= "Destron-R264",
+@NpcSubname		:= "ARMOR REPLICATION UNIT",
+@NpcDisplayID		:= 28979, /*GIVE A NEW DISPLAYID HERE*/
 
 /*vendors_entrys*/
 @Vendor_Wep 		:= 6666669, /*ILVL_264_WEAPONS_LIST*/
