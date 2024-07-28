@@ -1,9 +1,9 @@
 -- DATA NPC_TEMPLATE
 SET
-@NpcEntry 		:= 666666,
-@NpcName		:= "Multi-Vendor-245",
-@NpcSubname		:= "WoWHellgarve Vendor",
-@NpcDisplayID		:= 1298,
+@NpcEntry 		:= 601022,
+@NpcName		:= "Micky Scranish",
+@NpcSubname		:= "Unlicensed Superior Armorer",
+@NpcDisplayID		:= 4276,
 
 /*vendors_entrys*/
 @Vendor_Wep 		:= 6666672, /*ILVL_245_WEAPONS_LIST*/
